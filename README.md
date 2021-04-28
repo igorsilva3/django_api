@@ -47,10 +47,7 @@
 
 - #### Migrating database
 	```bash
-	# Building the database tables and fields
-	(name-of-your-virtual-environment) $ python manage.py makemigrations
-
-	# Migrating for database
+	# Migrating tables for database
 	(name-of-your-virtual-environment) $ python manage.py migrate
 	``` 
 
