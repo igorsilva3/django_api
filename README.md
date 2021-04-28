@@ -1,15 +1,5 @@
 <!-- Header -->
 <h1 align="center">DJANGO API</h1>
-<p align="center">
-  	<img alt="Repository size" src="https://img.shields.io/github/repo-size/igorsilva3/django_api">
-  	<a href="https://github.com/igorsilva3/django_api/commits/master">
-    	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/igorsilva3/django_api">
-  	</a> 
-  	<img alt="License" src="https://img.shields.io/github/license/igorsilva3/django_api">
-  	<a href="https://github.com/igorsilva3/django_api/stargazers">
-    	<img alt="Stargazers" src="https://img.shields.io/github/stars/igorsilva3/django_api">
-  	</a>
-</p>
 
 <!-- Description  -->
 > *This is a Django project. A API of product manager, where it has the register of product, updates of data product, the exclusion of product and th listing of all products added. :stars:*
