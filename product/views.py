@@ -12,6 +12,8 @@ class ProductViewSet(viewsets.ModelViewSet):
 
     def list(self, request):
     	queryset = Product.objects.all()
-    	serializer = ProductSerializer(queryset, many=True)
+    	products = queryset.filter(value="5.49")
+    	
+    	serializer = ProductSerializer(products, many=True)
 
     	return Response(serializer.data)
